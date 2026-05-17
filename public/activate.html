@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activate FormSubmit</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; color: white; }
+        .card { background: #1e293b; padding: 2rem; border-radius: 1rem; text-align: center; max-width: 400px; }
+        button { background: #06b6d4; color: black; border: none; padding: 1rem 2rem; font-size: 1.1rem; font-weight: bold; border-radius: 0.5rem; cursor: pointer; margin-top: 1rem; }
+        button:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Activate Your Form</h2>
+        <p>FormSubmit requires a standard browser submission for the very first time to verify your email address before allowing our custom React animations.</p>
+        <p>Click the button below. You will be redirected to FormSubmit to complete a Captcha.</p>
+        <form action="https://formsubmit.co/devang.kharat@gmail.com" method="POST">
+            <input type="hidden" name="name" value="Activation Request">
+            <input type="hidden" name="email" value="devang.kharat@gmail.com">
+            <input type="hidden" name="message" value="This is just to activate the email address.">
+            <button type="submit">Activate Email Now</button>
+        </form>
+    </div>
+</body>
+</html>
