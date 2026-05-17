@@ -20,11 +20,6 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
-    if (WEB3FORMS_ACCESS_KEY === "YOUR_ACCESS_KEY_HERE") {
-      setError("Please add your Web3Forms Access Key in Contact.tsx to enable submissions.");
-      return;
-    }
 
     setIsSubmitting(true);
     setError("");
