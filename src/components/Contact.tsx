@@ -54,6 +54,7 @@ export default function Contact() {
         setError("Oops! There was a problem submitting your form.");
       }
     } catch (err) {
+      console.error("Form submission error:", err);
       setError("Oops! There was a network error submitting your form.");
     } finally {
       setIsSubmitting(false);
