@@ -26,10 +26,10 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-4 mb-12">
-          <a href="#" className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center text-foreground-muted hover:text-foreground hover:bg-foreground/10 transition-all" title="Instagram">
+          <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center text-foreground-muted hover:text-foreground hover:bg-foreground/10 transition-all" title="Instagram">
             <Camera size={18} />
           </a>
-          <a href="#" className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center text-foreground-muted hover:text-foreground hover:bg-foreground/10 transition-all" title="LinkedIn">
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center text-foreground-muted hover:text-foreground hover:bg-foreground/10 transition-all" title="LinkedIn">
             <Globe size={18} />
           </a>
           <a href="https://wa.me/918669209705" className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center text-foreground-muted hover:text-[#25D366] hover:bg-foreground/10 transition-all" title="WhatsApp">

@@ -80,6 +80,7 @@ export default function HeroSection() {
                 src="/devang-portrait.png"
                 alt="Devang"
                 fill
+                sizes="400px"
                 className="object-cover object-top scale-105 group-hover:scale-100 transition-transform duration-700"
                 priority
               />
