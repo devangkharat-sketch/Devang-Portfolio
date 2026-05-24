@@ -12,7 +12,7 @@ export default function Contact() {
   // Using Web3Forms for reliable email forwarding
   const WEB3FORMS_URL = "https://api.web3forms.com/submit";
   // GET YOUR KEY HERE: https://web3forms.com/
-  const WEB3FORMS_ACCESS_KEY = "5fd49292-856f-4917-ba1d-f1114a057e22"; 
+  const WEB3FORMS_ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || ""; 
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
